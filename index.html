@@ -9,42 +9,43 @@
    </head>
    <body>
        <table>
+                          <thead>
+			     <tr>
+				    <th>&nbsp;Input</th>
+			     </tr>
+			   </thead>
 			   <tbody>
 			     <tr>
-					<input type="integer" placeholder="Input  number">
-           
-			     </tr>
-			   </tbody>
-	</table>
-	   <div id="target">
-       	   </div>
+				<td>&nbsp;<input type="int" placeholder="Input  number"> </td> </tr>
+                            </tbody>
+        <p> </p>
+       
+        </table>
 
            <button    
 	            class="btn btn-success btn-mini"
-	            onclick="make_exponentiater();">
+	            onclick="getOutput(2);">
 				Calculate Square
 	   </button>
-<table>
-			   <tbody>
-			     <tr>
-					<input type="integer" placeholder="Output">
-           
-			     </tr>
-			   </tbody>
-	</table>
+
 
 	   <button    
 	            class="btn btn-success btn-mini"
-	            onclick="make_exponentiater();">
+	            onclick="getOutput(3);">
 				Calculate Cube
 	   </button>
-	  <table>
+	  
+	   <table>
+			   <thead>
+			     <tr>
+				    <th><p>&nbsp;</p>&nbsp;Output</th>
+			     </tr>
+			   </thead>
 			   <tbody>
 			     <tr>
-					<input type="integer" placeholder="Output">
-           
+			       <td><p></p><p id = "target"> </p> </td>
 			     </tr>
 			   </tbody>
-	</table>
+	   </table>
    </body>
 </html>

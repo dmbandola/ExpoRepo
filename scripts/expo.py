@@ -1,6 +1,3 @@
-import cgi
-import json
-
 def make_exponentiater(e):
     return lambda(x): pow(x, e)
 
