@@ -21,7 +21,7 @@
 
            <button    
 	            class="btn btn-success btn-mini"
-	            onclick="make_exponentiater();">
+	            onclick="exponentiater();">
 				Calculate Square
 	   </button>
 <table>
@@ -35,7 +35,7 @@
 
 	   <button    
 	            class="btn btn-success btn-mini"
-	            onclick="make_exponentiater();">
+	            onclick="exponentiater();">
 				Calculate Cube
 	   </button>
 	  <table>
