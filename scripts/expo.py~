@@ -7,5 +7,21 @@ def make_exponentiater(e):
 square = make_exponentiater(2)
 cube = make_exponentiater(3)
 
-print square(4)
-print cube(4)
+def index(req, num, pow):
+	num = cgi.escape(num)
+	pow = cgi.escape(pow)
+	n = int(num)
+	p = int(pow)
+	
+	
+	if p == 2:
+		n = int(square(n))
+	elif p == 3:
+		n = int(cube(n))
+	
+	result = []
+	
+	result.append(str(n))
+
+
+	return json.dumps(result)
